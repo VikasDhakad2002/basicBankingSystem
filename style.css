@@ -1,0 +1,161 @@
+            * {
+                margin: 0%;
+                padding: 0%;
+                box-sizing: border-box;
+                font-family: 'Merriweather', serif;
+            }
+            
+            nav {
+                background-color: #05386B;
+            }
+            
+            a.nav-link {
+                color: aliceblue;
+            }
+            
+            a.navbar-brand {
+                color: aliceblue;
+            }
+            
+            img.nav-logo {
+                width: 30px;
+                height: 30px;
+            }
+            
+            .img-fluid {
+                max-width: 300px;
+                max-height: 400px;
+                border-radius: 10px;
+            }
+            
+            .image-section {
+                align-items: center;
+                text-align: center;
+            }
+            
+            .home-section {
+                padding-top: 120px;
+                height: 600px;
+                background-color: rgb(104, 241, 218);
+            }
+            /*             
+            body {
+                background-color: rgb(104, 241, 218);
+                color: #05386B;
+            } */
+            
+            .text-area h1,
+            p {
+                padding: 0px 80px;
+            }
+            
+            .text-area {
+                align-items: center;
+                text-align: center;
+            }
+            
+            .service-section {
+                height: 450px;
+                /* background-color: #05386B; */
+                background-color: aliceblue;
+            }
+            
+            .service-section div {
+                padding-top: 20px;
+            }
+            
+            .service-section .card {
+                margin: auto;
+            }
+            
+            .card {
+                width: 20rem;
+                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                text-align: center;
+                border-radius: 5px;
+            }
+            
+            .social-link a {
+                margin-right: 10px;
+            }
+            
+            .footer {
+                background-color: #05386B;
+            }
+            
+            .footer div {
+                text-align: center;
+                color: aliceblue;
+                padding-top: 30px;
+            }
+            
+            .footer div ul li {
+                list-style: none;
+            }
+            
+            .fa-linkedin:before {
+                content: "\f08c";
+                color: aliceblue;
+            }
+            
+            .fa-twitter-square:before {
+                content: "\f081";
+                color: aliceblue;
+            }
+            
+            .fa-facebook-square:before {
+                content: "\f082";
+                color: aliceblue;
+            }
+            
+            .customer-table {
+                margin-top: 60px;
+                margin-bottom: 60px;
+            }
+            
+            .table-head {
+                text-align: center;
+                padding-top: 20px;
+            }
+            
+            @media screen and (max-width: 1000px) {
+                .text-area h1,
+                p {
+                    padding: 0px 50px;
+                }
+                .home-section {
+                    padding-top: 60px;
+                    height: 600px;
+                }
+                .card {
+                    width: 18rem;
+                }
+                .service-section {
+                    height: 800px;
+                }
+            }
+            
+            @media screen and (max-width: 770px) {
+                .home-section {
+                    padding-top: 60px;
+                    height: 900px;
+                }
+            }
+            
+            @media screen and (max-width: 358px) {
+                .text-area h1,
+                p {
+                    padding: 0 10px;
+                }
+                .card {
+                    width: 14rem;
+                }
+                .img-fluid {
+                    max-width: 200px;
+                    max-height: 300px;
+                    border-radius: 10px;
+                }
+                .home-section {
+                    height: 800px;
+                }
+            }
